@@ -9,6 +9,13 @@ image:https://codecov.io/gh/npo-poms/esper-events/branch/main/graph/badge.svg[co
 |===
 |Version | espertech version | java version| date | remarks
 
+|3.1
+|9.0
+|17
+|september 2025
+|just migrated from vpro -> npo-poms
+
+
 |3.0
 |9.0
 |17
