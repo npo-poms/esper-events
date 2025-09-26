@@ -2,7 +2,7 @@
 
 image:https://img.shields.io/maven-central/v/nl.vpro.esper/esper-events.svg?label=Maven%20Central[Maven Central,link=https://central.sonatype.com/search?q=g%3Anl.vpro.esper]
 image:http://www.javadoc.io/badge/nl.vpro.esper/esper-events.svg?color=blue[javadoc,link=http://www.javadoc.io/doc/nl.vpro.esper/esper-events]
-image:https://codecov.io/gh/npo-poms/esper-events/branch/main/graph/badge.svg[codecov,link=https://codecov.io/gh/vpro/esper-events]
+image:https://codecov.io/gh/npo-poms/esper-events/branch/main/graph/badge.svg[codecov,link=https://codecov.io/gh/npo-poms/esper-events]
 #image:https://img.shields.io/nexus/s/https/oss.sonatype.org/nl.vpro.esper/esper-events.svg[snapshots,link=https://oss.sonatype.org/content/repositories/snapshots/nl/vpro/esper/]
 
 
