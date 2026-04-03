@@ -23,13 +23,13 @@ jobs:
           server-username: CENTRAL_USERNAME
           server-password: CENTRAL_PASSWORD
           gpg-private-key: ${{ secrets.GPG_SECRET_KEY }}
-      - name: Configure Git
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "user@users.noreply.github.com"
-          git pull
       - name: Release
-        run: mvn -Pdeploy --batch-mode -Darguments=-DskipTests  release:prepare release:perform
+        run: |
+          git config --global user.name 'github actions'
+          git config --global user.email 'github@meeuw.org'
+          mvn --batch-mode  -Darguments="-DskipTests -Pdeploy"  -DpushChanges=false release:prepare
+          git push --atomic -v --follow-tags
+          mvn -Pdeploy --batch-mode -Darguments=-DskipTests release:perform
         env:
           CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
           CENTRAL_PASSWORD: ${{ secrets.CENTRAL_PASSWORD }}
