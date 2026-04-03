@@ -4,7 +4,7 @@
 
   <groupId>nl.vpro.esper</groupId>
   <artifactId>esper-events</artifactId>
-  <version>3.2</version>
+  <version>3.3-SNAPSHOT</version>
 
   <name>VPRO Esper Events</name>
   <inceptionYear>2012</inceptionYear>
@@ -37,7 +37,7 @@
     <connection>scm:git:${project.scm.url}</connection>
     <developerConnection>scm:git:${project.scm.url}</developerConnection>
     <url>https://github.com/npo-poms/esper-events</url>
-    <tag>REL-3.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
